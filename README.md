@@ -1,12 +1,12 @@
 # tdd-project
 
-According to [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development){:target="_blank"}, test-driven development (TDD) is a software development process that converts software requirements into test cases before the software is actually developed.  The steps of the TDD cycle are as follows:
+According to [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development), test-driven development (TDD) is a software development process that converts software requirements into test cases before the software is actually developed.  The steps of the TDD cycle are as follows:
 
 1. Add a test (the new test should fail)
-2. Write the simplest code that makes the new test pass ([YAGNI](https://www.martinfowler.com/bliki/Yagni.html){:target="_blank"})
+2. Write the simplest code that makes the new test pass ([YAGNI](https://www.martinfowler.com/bliki/Yagni.html))
 3. Refactor the code
 
-So, in order to set up a Node.js project for TDD, we need a way to run unit tests on the code that will be developed for it.  There are two popular tools for doing this: [Mocha](https://mochajs.org){:target="_blank"} is a popular JavaScript test framework and [Chai](https://www.chaijs.com){:target="_blank"} is an assertion library that can be nicely paired with it.
+So, in order to set up a Node.js project for TDD, we need a way to run unit tests on the code that will be developed for it.  There are two popular tools for doing this: [Mocha](https://mochajs.org) is a popular JavaScript test framework and [Chai](https://www.chaijs.com) is an assertion library that can be nicely paired with it.
 
 We can get started by launching a bash shell and running the following commands to initialize such a project.
 
